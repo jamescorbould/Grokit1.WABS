@@ -1,3 +1,5 @@
 *.suo
 *.dll
 *.obj
+bin
+obj
