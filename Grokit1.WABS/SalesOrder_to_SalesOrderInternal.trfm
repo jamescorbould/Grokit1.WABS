@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MapFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.microsoft.com/2011/07/AppServer/Transforms">
+  <GridHeight>200</GridHeight>
+  <GridWidth>200</GridWidth>
+  <MainMapletName>Main</MainMapletName>
+  <MapFileSettings i:nil="true" />
+  <Maplets>
+    <Maplet>
+      <SerializedProperties>
+        <a1:KeyValueOfstringanyType>
+          <a1:Key>Pages</a1:Key>
+          <a1:Value i:type="a1:ArrayOfstring">
+            <a1:string>Main</a1:string>
+          </a1:Value>
+        </a1:KeyValueOfstringanyType>
+      </SerializedProperties>
+      <Statements>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">2</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">3</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/OrderId</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/OrderId</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">4</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/PaymentType</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/PaymentType</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">5</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/OrderDate</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/OrderDate</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">6</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">7</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">8</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product/Code</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product/Code</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">9</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product/Qty</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product/Qty</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">10</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product/Price</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product/Price</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">11</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">12</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer/Name</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer/Name</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">13</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer/Email</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer/Email</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">14</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer/Phone</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer/Phone</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">15</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">16</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/RecipientName</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/RecipientName</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">17</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/Number</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/Number</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">18</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/Street</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/Street</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">19</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/City</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/City</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">20</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/State</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/State</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">21</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/Country</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/Country</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">22</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/PostCode</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/PostCode</Path>
+          </To>
+        </MapStatement>
+      </Statements>
+      <Name>Main</Name>
+      <ReferencedAssemblies />
+      <Scripts />
+      <SourceParameters>
+        <ParameterInfo>
+          <Name>srcRoot1</Name>
+          <PropertiesInfo i:nil="true" />
+          <Type i:type="XmlEntityType">
+            <LocalName>SalesOrder</LocalName>
+            <NamespaceName>http://Grokit1.WABS.SalesOrder</NamespaceName>
+            <SchemaLocation>.\SalesOrder.xsd</SchemaLocation>
+          </Type>
+        </ParameterInfo>
+      </SourceParameters>
+      <TargetParameters>
+        <ParameterInfo>
+          <Name>tgtRoot1</Name>
+          <PropertiesInfo i:nil="true" />
+          <Type i:type="XmlEntityType">
+            <LocalName>SalesOrder</LocalName>
+            <NamespaceName>http://Grokit1.WABS.SalesOrder.Internal</NamespaceName>
+            <SchemaLocation>.\SalesOrderInternal.xsd</SchemaLocation>
+          </Type>
+        </ParameterInfo>
+      </TargetParameters>
+      <XmlNamespacePrefixMap />
+    </Maplet>
+  </Maplets>
+  <Version>.82</Version>
+  <XmlNamespacePrefixMap>
+    <a1:KeyValueOfstringstring>
+      <a1:Key>ns0</a1:Key>
+      <a1:Value>http://Grokit1.WABS.SalesOrder</a1:Value>
+    </a1:KeyValueOfstringstring>
+    <a1:KeyValueOfstringstring>
+      <a1:Key>ns1</a1:Key>
+      <a1:Value>http://Grokit1.WABS.SalesOrder.Internal</a1:Value>
+    </a1:KeyValueOfstringstring>
+  </XmlNamespacePrefixMap>
+</MapFile>

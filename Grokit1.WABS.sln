@@ -8,18 +8,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{
 		TestFiles\salesorderinstance.xml = TestFiles\salesorderinstance.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grokit1.WABS.Schemas", "Grokit1.WABS.Schemas\Grokit1.WABS.Schemas.csproj", "{35D72F63-7B6B-4C52-AE75-AA33BF369737}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{E9DBCFF3-37DB-4C88-A1A1-091931863748}.Release|x86.ActiveCfg = Release|Any CPU
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Debug|x86.ActiveCfg = Debug|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Debug|x86.Build.0 = Debug|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Release|Any CPU.ActiveCfg = Release|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Release|Mixed Platforms.Build.0 = Release|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Release|x86.ActiveCfg = Release|x86
+		{35D72F63-7B6B-4C52-AE75-AA33BF369737}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

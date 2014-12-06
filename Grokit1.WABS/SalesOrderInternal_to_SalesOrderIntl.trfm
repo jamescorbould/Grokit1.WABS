@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MapFile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:a1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns="http://schemas.microsoft.com/2011/07/AppServer/Transforms">
+  <GridHeight>200</GridHeight>
+  <GridWidth>200</GridWidth>
+  <MainMapletName>Main</MainMapletName>
+  <MapFileSettings i:nil="true" />
+  <Maplets>
+    <Maplet>
+      <SerializedProperties>
+        <a1:KeyValueOfstringanyType>
+          <a1:Key>Pages</a1:Key>
+          <a1:Value i:type="a1:ArrayOfstring">
+            <a1:string>Main</a1:string>
+            <a1:string>OrderTotal</a1:string>
+            <a1:string>Currency</a1:string>
+          </a1:Value>
+        </a1:KeyValueOfstringanyType>
+      </SerializedProperties>
+      <Statements>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">2</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">3</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/OrderId</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/OrderId</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">4</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/PaymentType</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/PaymentType</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">5</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/OrderDate</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/OrderDate</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="ListInitialization">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>XCell</a1:Key>
+              <a1:Value i:type="xs:int">70</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>YCell</a1:Key>
+              <a1:Value i:type="xs:int">64</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Label</a1:Key>
+              <a1:Value i:type="xs:string">List_Product</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">23</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">OrderTotal</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Collapsed</a1:Key>
+              <a1:Value i:type="xs:boolean">false</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Width</a1:Key>
+              <a1:Value i:type="xs:int">7</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Height</a1:Key>
+              <a1:Value i:type="xs:int">8</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <Identifier>var1</Identifier>
+          <Initializer>
+            <Statements>
+              <MapStatement i:type="Foreach">
+                <SerializedProperties>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>XCell</a1:Key>
+                    <a1:Value i:type="xs:int">71</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>YCell</a1:Key>
+                    <a1:Value i:type="xs:int">66</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>Label</a1:Key>
+                    <a1:Value i:type="xs:string">ForEach_Product</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>Id</a1:Key>
+                    <a1:Value i:type="xs:int">28</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>Collapsed</a1:Key>
+                    <a1:Value i:type="xs:boolean">false</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>Width</a1:Key>
+                    <a1:Value i:type="xs:int">5</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>Height</a1:Key>
+                    <a1:Value i:type="xs:int">5</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                </SerializedProperties>
+                <Statements>
+                  <MapStatement i:type="VariableInitialization">
+                    <SerializedProperties>
+                      <a1:KeyValueOfstringanyType>
+                        <a1:Key>XCell</a1:Key>
+                        <a1:Value i:type="xs:int">72</a1:Value>
+                      </a1:KeyValueOfstringanyType>
+                      <a1:KeyValueOfstringanyType>
+                        <a1:Key>YCell</a1:Key>
+                        <a1:Value i:type="xs:int">69</a1:Value>
+                      </a1:KeyValueOfstringanyType>
+                      <a1:KeyValueOfstringanyType>
+                        <a1:Key>Id</a1:Key>
+                        <a1:Value i:type="xs:int">32</a1:Value>
+                      </a1:KeyValueOfstringanyType>
+                    </SerializedProperties>
+                    <Identifier>var2</Identifier>
+                    <Initializer i:type="ArithmeticExpression">
+                      <Aliases>
+                        <NameBinding>
+                          <Expression i:type="PathExpression">
+                            <SerializedProperties>
+                              <a1:KeyValueOfstringanyType>
+                                <a1:Key>Id</a1:Key>
+                                <a1:Value i:type="xs:int">33</a1:Value>
+                              </a1:KeyValueOfstringanyType>
+                            </SerializedProperties>
+                            <Path>srcIteration1/Qty</Path>
+                          </Expression>
+                          <Name>Qty</Name>
+                          <Type i:type="NumberType" />
+                        </NameBinding>
+                        <NameBinding>
+                          <Expression i:type="PathExpression">
+                            <SerializedProperties>
+                              <a1:KeyValueOfstringanyType>
+                                <a1:Key>Id</a1:Key>
+                                <a1:Value i:type="xs:int">34</a1:Value>
+                              </a1:KeyValueOfstringanyType>
+                            </SerializedProperties>
+                            <Path>srcIteration1/Price</Path>
+                          </Expression>
+                          <Name>Price</Name>
+                          <Type i:type="NumberType" />
+                        </NameBinding>
+                      </Aliases>
+                      <ExpressionText>Qty * Price</ExpressionText>
+                    </Initializer>
+                  </MapStatement>
+                  <MapStatement i:type="AddItemToList">
+                    <SerializedProperties>
+                      <a1:KeyValueOfstringanyType>
+                        <a1:Key>XCell</a1:Key>
+                        <a1:Value i:type="xs:int">74</a1:Value>
+                      </a1:KeyValueOfstringanyType>
+                      <a1:KeyValueOfstringanyType>
+                        <a1:Key>YCell</a1:Key>
+                        <a1:Value i:type="xs:int">69</a1:Value>
+                      </a1:KeyValueOfstringanyType>
+                      <a1:KeyValueOfstringanyType>
+                        <a1:Key>Id</a1:Key>
+                        <a1:Value i:type="xs:int">30</a1:Value>
+                      </a1:KeyValueOfstringanyType>
+                    </SerializedProperties>
+                    <Condition i:nil="true" />
+                    <Values>
+                      <NameBinding>
+                        <Expression i:type="PathExpression">
+                          <SerializedProperties>
+                            <a1:KeyValueOfstringanyType>
+                              <a1:Key>Id</a1:Key>
+                              <a1:Value i:type="xs:int">35</a1:Value>
+                            </a1:KeyValueOfstringanyType>
+                          </SerializedProperties>
+                          <Path>var2</Path>
+                        </Expression>
+                        <Name>total</Name>
+                        <Type i:type="NumberType" />
+                      </NameBinding>
+                    </Values>
+                  </MapStatement>
+                </Statements>
+                <Aliases />
+                <SourceLoopPath>
+                  <SerializedProperties>
+                    <a1:KeyValueOfstringanyType>
+                      <a1:Key>Id</a1:Key>
+                      <a1:Value i:type="xs:int">29</a1:Value>
+                    </a1:KeyValueOfstringanyType>
+                  </SerializedProperties>
+                  <Path>srcRoot1/Products/Product</Path>
+                </SourceLoopPath>
+                <SourceLoopVariableName>srcIteration1</SourceLoopVariableName>
+                <Where i:nil="true" />
+              </MapStatement>
+            </Statements>
+          </Initializer>
+          <Type>
+            <members>
+              <MemberInfo>
+                <Name>total</Name>
+                <Type i:type="NumberType" />
+              </MemberInfo>
+            </members>
+          </Type>
+        </MapStatement>
+        <MapStatement i:type="VariableInitialization">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>XCell</a1:Key>
+              <a1:Value i:type="xs:int">79</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>YCell</a1:Key>
+              <a1:Value i:type="xs:int">64</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">36</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">OrderTotal</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <Identifier>var3</Identifier>
+          <Initializer i:type="FunctionInvocationExpression">
+            <Aliases />
+            <FunctionName>ListSelectEntries</FunctionName>
+            <Parameters>
+              <ExpressionArgument i:type="ConstantExpressionList">
+                <SerializedProperties>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>SettingName</a1:Key>
+                    <a1:Value i:type="xs:string">SelectedMembersNames</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                </SerializedProperties>
+                <ElementType i:type="StringType" />
+                <Expressions>
+                  <ConstantExpression>
+                    <Value i:type="xs:string">total</Value>
+                  </ConstantExpression>
+                </Expressions>
+              </ExpressionArgument>
+            </Parameters>
+            <Target i:type="PathExpression">
+              <SerializedProperties>
+                <a1:KeyValueOfstringanyType>
+                  <a1:Key>Id</a1:Key>
+                  <a1:Value i:type="xs:int">37</a1:Value>
+                </a1:KeyValueOfstringanyType>
+              </SerializedProperties>
+              <Path>var1</Path>
+            </Target>
+          </Initializer>
+        </MapStatement>
+        <MapStatement i:type="VariableInitialization">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>XCell</a1:Key>
+              <a1:Value i:type="xs:int">81</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>YCell</a1:Key>
+              <a1:Value i:type="xs:int">64</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">39</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">OrderTotal</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <Identifier>var4</Identifier>
+          <Initializer i:type="FunctionInvocationExpression">
+            <Aliases />
+            <FunctionName>CumulativeSum</FunctionName>
+            <Parameters>
+              <ExpressionArgument i:type="LambdaExpression">
+                <SerializedProperties>
+                  <a1:KeyValueOfstringanyType>
+                    <a1:Key>SettingName</a1:Key>
+                    <a1:Value i:type="xs:string">Selector</a1:Value>
+                  </a1:KeyValueOfstringanyType>
+                </SerializedProperties>
+                <ExpressionText>item.total</ExpressionText>
+                <ParameterNames>
+                  <a1:string>item</a1:string>
+                </ParameterNames>
+                <ReturnType i:type="NumberType" />
+              </ExpressionArgument>
+            </Parameters>
+            <Target i:type="PathExpression">
+              <SerializedProperties>
+                <a1:KeyValueOfstringanyType>
+                  <a1:Key>Id</a1:Key>
+                  <a1:Value i:type="xs:int">40</a1:Value>
+                </a1:KeyValueOfstringanyType>
+              </SerializedProperties>
+              <Path>var3</Path>
+            </Target>
+          </Initializer>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">41</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>var4</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/OrderTotal</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="VariableInitialization">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>XCell</a1:Key>
+              <a1:Value i:type="xs:int">73</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>YCell</a1:Key>
+              <a1:Value i:type="xs:int">70</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">42</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Currency</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <Identifier>var5</Identifier>
+          <Initializer i:type="ConditionalExpression">
+            <Aliases>
+              <NameBinding>
+                <Expression i:type="PathExpression">
+                  <SerializedProperties>
+                    <a1:KeyValueOfstringanyType>
+                      <a1:Key>Id</a1:Key>
+                      <a1:Value i:type="xs:int">43</a1:Value>
+                    </a1:KeyValueOfstringanyType>
+                  </SerializedProperties>
+                  <Path>srcRoot1/ShippingAddress/Country</Path>
+                </Expression>
+                <Name>Country</Name>
+                <Type i:type="StringType" />
+              </NameBinding>
+            </Aliases>
+            <Condition>Country == "NZ"</Condition>
+            <IfFalseText>""</IfFalseText>
+            <IfTrueText>"NZD"</IfTrueText>
+          </Initializer>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">44</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>var5</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Currency</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">6</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">7</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">8</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product/Code</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product/Code</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">9</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product/Qty</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product/Qty</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">10</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Products/Product/Price</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Products/Product/Price</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">11</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">12</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer/Name</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer/Name</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">13</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer/Email</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer/Email</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">14</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/Customer/Phone</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/Customer/Phone</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">15</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">16</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/RecipientName</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/RecipientName</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">17</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/Number</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/Number</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">18</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/Street</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/Street</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">19</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/City</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/City</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">20</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/State</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/State</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">21</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/Country</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/Country</Path>
+          </To>
+        </MapStatement>
+        <MapStatement i:type="Assignment">
+          <SerializedProperties>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Page</a1:Key>
+              <a1:Value i:type="xs:string">Main</a1:Value>
+            </a1:KeyValueOfstringanyType>
+            <a1:KeyValueOfstringanyType>
+              <a1:Key>Id</a1:Key>
+              <a1:Value i:type="xs:int">22</a1:Value>
+            </a1:KeyValueOfstringanyType>
+          </SerializedProperties>
+          <From i:type="PathExpression">
+            <Path>srcRoot1/ShippingAddress/PostCode</Path>
+          </From>
+          <To>
+            <Path>tgtRoot1/ShippingAddress/PostCode</Path>
+          </To>
+        </MapStatement>
+      </Statements>
+      <Name>Main</Name>
+      <ReferencedAssemblies />
+      <Scripts />
+      <SourceParameters>
+        <ParameterInfo>
+          <Name>srcRoot1</Name>
+          <PropertiesInfo i:nil="true" />
+          <Type i:type="XmlEntityType">
+            <LocalName>SalesOrder</LocalName>
+            <NamespaceName>http://Grokit1.WABS.SalesOrder.Internal</NamespaceName>
+            <SchemaLocation>.\SalesOrderInternal.xsd</SchemaLocation>
+          </Type>
+        </ParameterInfo>
+      </SourceParameters>
+      <TargetParameters>
+        <ParameterInfo>
+          <Name>tgtRoot1</Name>
+          <PropertiesInfo i:nil="true" />
+          <Type i:type="XmlEntityType">
+            <LocalName>SalesOrder</LocalName>
+            <NamespaceName>http://Grokit1.WABS.SalesOrder.Intl</NamespaceName>
+            <SchemaLocation>.\SalesOrderIntl.xsd</SchemaLocation>
+          </Type>
+        </ParameterInfo>
+      </TargetParameters>
+      <XmlNamespacePrefixMap />
+    </Maplet>
+  </Maplets>
+  <Version>.82</Version>
+  <XmlNamespacePrefixMap>
+    <a1:KeyValueOfstringstring>
+      <a1:Key>ns0</a1:Key>
+      <a1:Value>http://Grokit1.WABS.SalesOrder.Internal</a1:Value>
+    </a1:KeyValueOfstringstring>
+    <a1:KeyValueOfstringstring>
+      <a1:Key>ns1</a1:Key>
+      <a1:Value>http://Grokit1.WABS.SalesOrder.Intl</a1:Value>
+    </a1:KeyValueOfstringstring>
+  </XmlNamespacePrefixMap>
+</MapFile>

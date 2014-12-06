@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <BridgeConfiguration Include="MessageFlowItinerary.bcs" />
+    <BridgeConfiguration Include="MessageFlowItinerary.bcs">
+      <SubType>Designer</SubType>
+    </BridgeConfiguration>
     <None Include="MessageFlowItinerary.bcs.diagram">
       <DependentUpon>MessageFlowItinerary.bcs</DependentUpon>
     </None>
@@ -57,9 +59,30 @@
     <AppConfig Include="LocalOrdersQueue.config">
       <DependentUpon>MessageFlowItinerary.bcs</DependentUpon>
     </AppConfig>
+    <Bridge Include="XmlOneWayBridgeIntl.BridgeConfig">
+      <DependentUpon>MessageFlowItinerary.bcs</DependentUpon>
+    </Bridge>
+    <XmlSchema Include="SalesOrderIntl.xsd">
+      <SubType>Designer</SubType>
+    </XmlSchema>
+    <XmlSchema Include="SalesOrderInternal.xsd">
+      <SubType>Designer</SubType>
+    </XmlSchema>
     <XmlSchema Include="SalesOrder.xsd">
       <SubType>Designer</SubType>
     </XmlSchema>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Grokit1.WABS.Schemas\Grokit1.WABS.Schemas.csproj">
+      <Project>{35d72f63-7b6b-4c52-ae75-aa33bf369737}</Project>
+      <Name>Grokit1.WABS.Schemas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <CompileTransform Include="SalesOrder_to_SalesOrderInternal.trfm" />
+  </ItemGroup>
+  <ItemGroup>
+    <CompileTransform Include="SalesOrderInternal_to_SalesOrderIntl.trfm" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Windows Azure BizTalk Services SDK\Microsoft.ApplicationServer.Integration.MessageFlow.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
